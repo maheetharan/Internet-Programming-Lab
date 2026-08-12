@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body style="font-family: Arial, sans-serif; background-color: #f4f4f9; margin: 0; padding: 20px; color: #333;">
+<div style="background:linear-gradient(100deg,#0B132B,#16324F 45%,#3A6EA5); padding:26px 20px; text-align:center;">
+  <h1 style="font-family:'Bebas Neue',sans-serif; letter-spacing:6px; font-size:2.6rem; color:#F5F7FA; margin:0;">🏁 WHEELS SHOWROOM</h1>
+  <p style="color:#FF6B35; letter-spacing:2px; margin:6px 0 0; font-size:.85rem;">CARS &nbsp;•&nbsp; BIKES &nbsp;•&nbsp; BUSES — TEST DRIVE FROM HOME</p>
+    <h1 style="color: #f4f4f9;">Products</h1>
+    <img src="/mixed.jpg"  usemap="#tracking" style="border-radius: 15px;">
+    <map name="tracking">
+        <area shape="rect" coords="1,1,378,387" href="#car">
+        <area shape="rect" coords="392,1,815,389" href="#bike">
+        <area shape="rect" coords="819,1,1280,392" href="#bus">
+    </map>
+</div>
+<div id="car">
+
+    <h1 style="text-align:center;color:#1d3557;"> Cars</h1>
+
+    <div style="display:flex;justify-content:center;gap:30px;flex-wrap:wrap;">
+
+        <div style="background:white;padding:15px;border-radius:12px;box-shadow:0px 2px 8px gray;text-align:center;">
+        <img src="/car4.jpg" id="car1" width="250" height="180" draggable="true" ondragstart="drag(event)" data-price="10258700" style="border-radius:10px;cursor:grab;">
+        <h3>BMW M5</h3>
+        <p style="color:green;font-weight:bold;">₹10,258,700</p>
+        </div>
+
+        <div style="background:white;padding:15px;border-radius:12px;box-shadow:0px 2px 8px gray;text-align:center;">
+        <img src="/car3.jpg" id="car2" width="250" height="180" draggable="true" ondragstart="drag(event)" data-price="1025870000" style="border-radius:10px;cursor:grab;">
+        <h3>Audi RS7</h3>
+        <p style="color:green;font-weight:bold;">₹1,025,870,000</p>
+        </div>
+
+        <div style="background:white;padding:15px;border-radius:12px;box-shadow:0px 2px 8px gray;text-align:center;">
+        <img src="/car5.jpg" id="car3" width="250" height="180" draggable="true" ondragstart="drag(event)" data-price="125870000" style="border-radius:10px;cursor:grab;">
+        <h3>Ferrari 488</h3>
+        <p style="color:green;font-weight:bold;">₹125,870,000</p>
+        </div>
+
+    </div>
+
+</div>
+
+<div id="bike">
+
+    <h1 style="text-align:center;color:#1d3557;">Bike</h1>
+
+    <div style="display:flex;justify-content:center;gap:30px;flex-wrap:wrap;">
+
+        <div style="background:white;padding:15px;border-radius:12px;box-shadow:0px 2px 8px gray;text-align:center;">
+        <img src="/bike1.jpg" id="bike1" width="250" height="180" draggable="true" ondragstart="drag(event)" data-price="10258700" style="border-radius:10px;cursor:grab;">
+        <h3>BMW N5</h3>
+        <p style="color:green;font-weight:bold;">₹10,258,700</p>
+        </div>
+
+        <div style="background:white;padding:15px;border-radius:12px;box-shadow:0px 2px 8px gray;text-align:center;">
+        <img src="/bike2.jpg" id="bike2" width="250" height="180" draggable="true" ondragstart="drag(event)" data-price="1025870000" style="border-radius:10px;cursor:grab;">
+        <h3>Yamaha Rs7</h3>
+        <p style="color:green;font-weight:bold;">₹1,025,870,000</p>
+        </div>
+
+        <div style="background:white;padding:15px;border-radius:12px;box-shadow:0px 2px 8px gray;text-align:center;">
+        <img src="/bike3.jpg" id="bike3" width="250" height="180" draggable="true" ondragstart="drag(event)" data-price="125870000" style="border-radius:10px;cursor:grab;">
+        <h3>FZ 2N</h3>
+        <p style="color:green;font-weight:bold;">₹125,870,000</p>
+        </div>
+
+    </div>
+
+</div>
+
+    <div id="bus">
+
+    <h1 style="text-align:center;color:#1d3557;"> Bus</h1>
+
+    <div style="display:flex;justify-content:center;gap:30px;flex-wrap:wrap;">
+
+        <div style="background:white;padding:15px;border-radius:12px;box-shadow:0px 2px 8px gray;text-align:center;">
+        <img src="/bus2.jpg" id="bus1" width="250" height="180" draggable="true" ondragstart="drag(event)" data-price="10258700" style="border-radius:10px;cursor:grab;">
+        <h3>Benz R1</h3>
+        <p style="color:green;font-weight:bold;">₹10,258,700</p>
+        </div>
+
+        <div style="background:white;padding:15px;border-radius:12px;box-shadow:0px 2px 8px gray;text-align:center;">
+        <img src="/1st bus.jpg" id="bus2" width="250" height="180" draggable="true" ondragstart="drag(event)" data-price="1025870000" style="border-radius:10px;cursor:grab;">
+        <h3>BMW L1</h3>
+        <p style="color:green;font-weight:bold;">₹1,025,870,000</p>
+        </div>
+
+        <div style="background:white;padding:15px;border-radius:12px;box-shadow:0px 2px 8px gray;text-align:center;">
+        <img src="/bus3.jpg" id="bus3" width="250" height="180" draggable="true" ondragstart="drag(event)" data-price="125870000" style="border-radius:10px;cursor:grab;">
+        <h3>Valvo Xi</h3>
+        <p style="color:green;font-weight:bold;">₹125,870,000</p>
+        </div>
+    </div>
+</div>
+
+<div style="background:white;padding:15px;border-radius:12px;box-shadow:0px 2px 8px gray;text-align:center; margin-top:30px;">
+    <video width="580" height="490" controls>
+        <source src="/11901732-hd_1920_1080_25fps.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+</div>
+<div style="position:fixed;bottom:20px;right:20px;width:320px;background:white;padding:15px;border-radius:10px;box-shadow:0px 0px 10px gray;">
+
+    <h2 style="text-align:center;">🛒 Shopping Cart</h2>
+
+    <div id="cart"ondragover="allowDrop(event)"ondrop="drop(event)"style="min-height:180px;border:2px dashed blue;padding:10px;gap:10px;justify-content:center;">
+
+        <p id="empty-message">Drag products here</p>
+
+    </div>
+
+    <h3>Total : ₹<span id="cart-total">0</span></h3>
+
+</div>
+
+<div style="text-align:center;margin:30px;">
+
+    <button onclick="window.open('https://www.google.com/maps?q=11.1271,78.6569')"style="padding:15px 25px;background:#0077ff;color:white;border:none;border-radius:8px;font-size:18px;cursor:pointer;">
+        Show Store Location
+    </button>
+
+</div>
+<h1 style="text-align:center;">📝 Order Form</h1>
+
+<div style="width:500px;margin:auto;background:white;padding:20px;border-radius:10px;box-shadow:0px 0px 8px gray;">
+
+    <input type="text" placeholder="Full Name" style="width:95%;padding:10px;margin:8px;"><br>
+
+    <input type="email" placeholder="Email" style="width:95%;padding:10px;margin:8px;"><br>
+
+    <input type="number" placeholder="Phone Number" style="width:95%;padding:10px;margin:8px;"><br>
+
+    <textarea placeholder="Address" style="width:95%;height:80px;padding:10px;margin:8px;"></textarea><br>
+
+    <select style="width:100%;padding:10px;margin:8px;">
+    <option>Cash On Delivery</option>
+    <option>UPI</option>
+    <option>Credit Card</option>
+    <option>Debit Card</option>
+    </select>
+
+    <br><br>
+
+    <button style="width:100%;padding:12px;background:green;color:white;border:none;border-radius:8px;"><a href="booked.html" style="text-decoration:none;color:white;font-size:18px;">
+    Place Order</a>
+    </button>
+
+</div>
+
+<script>
+
+let total = 0;
+
+function allowDrop(e){
+    e.preventDefault();
+}
+
+function drag(e){
+    e.dataTransfer.setData("id", e.target.id);
+}
+
+function drop(e){
+    e.preventDefault();
+    let id = e.dataTransfer.getData("id");
+    let product = document.getElementById(id);
+    let copy = product.cloneNode(true);
+    copy.removeAttribute("id");
+    copy.draggable = false;
+    copy.style.width = "80px";
+    copy.style.height = "60px";
+    document.getElementById("empty-message").style.display = "none";
+    document.getElementById("cart").appendChild(copy);
+    total += Number(product.dataset.price);
+    document.getElementById("cart-total").innerHTML = total.toLocaleString();
+}
+
+</script>
+</body>
+</html>
