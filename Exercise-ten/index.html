@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Order Form</title>
+</head>
+
+<body>
+<h1 style="text-align:center;">Order Form</h1>
+<div style="width:500px;margin:auto;background:white;padding:20px;
+            border-radius:10px;box-shadow:0px 0px 8px gray;">
+    <form action="index.php" method="POST">
+        <input type="text" name="customer_name" placeholder="Full Name" required style="width:95%;padding:10px;margin:8px;"><br>
+        <input type="email" name="email" placeholder="Email" required style="width:95%;padding:10px;margin:8px;"><br>
+        <input type="tel" name="phone" placeholder="Phone Number" required style="width:95%;padding:10px;margin:8px;"><br>
+        <textarea name="address" placeholder="Address" required style="width:95%;height:80px;padding:10px;margin:8px;"></textarea><br>
+        <input type="text" name="product_name" placeholder="Product Name" required style="width:95%;padding:10px;margin:8px;"><br>
+        <input type="number" name="quantity" placeholder="Quantity" min="1" required style="width:95%;padding:10px;margin:8px;"><br>
+        <input type="number" name="price" placeholder="Price" step="0.01" required style="width:95%;padding:10px;margin:8px;"><br>
+        <select name="payment_method" style="width:100%;padding:10px;margin:8px;">
+            <option value="Cash On Delivery">Cash On Delivery</option>
+            <option value="UPI">UPI</option>
+            <option value="Credit Card">Credit Card</option>
+            <option value="Debit Card">Debit Card</option>
+        </select>
+        <br>
+        <button type="submit" style="width:100%;padding:12px;background:green; color:white;border:none;border-radius:8px; font-size:18px;"> Place Order
+        </button>
+    </form>
+</div>
+</body>
+</html>
