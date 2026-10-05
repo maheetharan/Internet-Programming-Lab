@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <library>
+        <book>
+            <title> Life of Staffs</title>
+            <author> John </author>
+            <year>2004</year>
+            <price>$70</price>
+        </book>
+        <book>
+            <title> Life of Students</title>
+            <author> John </author>
+            <year>2005</year>
+            <price>$80</price>
+        </book>
+    </library>
+</root>
